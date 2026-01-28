@@ -17,8 +17,8 @@
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     overflow: hidden;
-    flex: calc(33.3333% - 32px);
-    max-width: calc(3333.3333% - 32px);
+    flex: calc(50% - 32px);
+    max-width: calc(50% - 32px);
     min-width: 250px;
 }
 
@@ -50,11 +50,10 @@
     text-transform: uppercase;
     color: white;
     font-weight: bold;
+    background: linear-gradient(135deg, #C0C0C0)
 }
 
-.region-kanto{
-    
-}
+
 
 .trainer-badges{
     border-radius: 12px;
@@ -63,7 +62,7 @@
     text-transform: uppercase;
     color: white;
     font-weight: bold;
-    background: linear-gradient(135deg, #dbd13c)
+    background: linear-gradient(135deg, #eee783, #eedb31)
 }
 
 .trainer-status {
@@ -82,5 +81,25 @@
 
 .status-lider{
     background: linear-gradient(135deg, #361ad3)
+
+}
+
+.status-champion{
+    background: linear-gradient(135deg, #FFD700)
+
+}
+
+.status-coor{
+    background: linear-gradient(135deg, #ff0000)
+
+}
+
+.status-artist{
+    background: linear-gradient(135deg, #dd39cf)
+
+}
+
+.status-investi{
+    background: linear-gradient(135deg, #3993dd)
 
 }
